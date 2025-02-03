@@ -1,10 +1,7 @@
 /* https://www.geeksforgeeks.org/problems/count-digits5716/1 */
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
 
-
-// } Driver Code Ends
 class Solution {
   public:
     
@@ -37,8 +34,6 @@ class Solution {
         return count;
     }
 };
-
-//{ Driver Code Starts.
 int main() {
     int t;
     cin >> t;
@@ -53,4 +48,3 @@ int main() {
     }
     return 0;
 }
-// } Driver Code Ends
