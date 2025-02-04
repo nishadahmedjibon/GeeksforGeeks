@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+  public:
+    int i=1;
+    void printNos(int n) {
+        cout<<i<<" ";
+        i++;
+        if (i>n)
+        return;
+        printNos(n);
+    }
+};
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N;
+        cin >> N;
+        Solution ob;
+        ob.printNos(N);
+        cout << "\n";
+
+        cout << "~"
+             << "\n";
+    }
+    return 0;
+}
