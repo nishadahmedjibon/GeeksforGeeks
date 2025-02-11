@@ -1,0 +1,16 @@
+class Solution {
+  public:
+    vector<long long> factorialNumbers(long long n) {
+        vector <long long> ans;
+        long long int factorial = 1.0;
+        int x = 2;
+        
+        while (factorial<=n) {
+            ans.push_back(factorial);
+             factorial*=x;
+             x++;
+        }
+        
+        return ans;
+    }
+};
